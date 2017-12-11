@@ -1,3 +1,17 @@
-h1 {
-  color: rgba(238, 255, 0, 0.397);
+.menu {
+  background-color: black;
+  display: inline-block;
+  width: 1200px;
+  height: 80px;
 }
+.genre {
+  background-color: rgb(252, 46, 46);
+}
+h1, p {
+  color: rgb(2, 2, 2);
+  background-color: white;
+}
+body {
+  background-image:url(images/asos-generic-hp-desktop-01-new.jpg);
+  display: inline-block;
+  }
