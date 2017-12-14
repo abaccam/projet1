@@ -5,23 +5,23 @@ nav{
   text-align: center;
   margin-bottom: -4px;
 }
+.menu1{
+  display:flex;
+  align-content: flex-start;
+  margin-left: 25px;
+}
 .logoAsos{
-  display: inline-block;
-  height: 50px;
   background-image: url("images/logo_asos.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 117px;
-  margin: 10px 0px 0px 20px;
+  width: 100px;
+  height: 40px;
 }
 .barreRecherche{
-  display: inline-block;
   height: 50px;
   background-image: url("images/barre_recherche.png");
   background-repeat: no-repeat;
-  background-size: contain;
   width: 700px;
-  margin: 0px 0px 0px 450px;
 }
 ul {
   display: table;
