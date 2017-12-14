@@ -10,11 +10,32 @@ nav{
   align-content: flex-start;
   margin-left: 25px;
 }
-.menu2{
+.login {
+  display:block;
   display:flex;
-  align-content: flex-start;
-  margin-left: 1065px;
-  margin-top: -85px;
+  background-image: url("images/login.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  margin: -101px 0px 0px 1112px;
+}
+.favoris {
+  display:block;
+  display:flex;
+  background-image: url("images/favoris.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  margin: -101px 0px 0px 1112px;
+}
+.panier {
+  display:block;
+  display:flex;
+  background-image: url("images/panier.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  margin: -101px 0px 0px 1112px;
 }
 .logoAsos{
   background-image: url("images/logo_asos.png");
@@ -22,6 +43,7 @@ nav{
   background-size: contain;
   width: 100px;
   height: 40px;
+  margin-top: 1px;
 }
 .barre{
   font-size: 12px;
@@ -37,7 +59,8 @@ nav{
   padding-right: 46px;
   box-sizing: border-box;
   color: #2d2d2d;
-  margin-left: 102px;
+  margin-left: 27px;
+  margin-top: 1px;
 }
 ul {
   display: table;
@@ -50,35 +73,41 @@ ul li{
   display: table-cell;
 }
 ul li a {
-display: inline-block;
-text-align: center;
-color: rgb(255, 255, 255); 
-text-decoration: none;
-padding: 8px 8px 17px 8px;
+  display: inline-block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 8px 8px 17px 8px;
+  margin: 4px 25px 0px 5px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .genre a{
   display: inline-block;
-  margin: 9px 20px 0px 30px;
+  margin: 8px 20px 0px 36px;
   text-decoration: none;
   color: white;
   border: solid white;
+  border-width: 2px;
   font-size: 12px;
-  padding: 6px;
+  padding: 7px 15px;
 }
 .genre p{
   display: inline-block;
-  margin: 10px 400px;
-  font-size: 12px;
+  font-family: "Arial", sans-serif;
+  margin: 16px 400px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .menu {
-  background-color: #262626;
+  background-color: #2d2d2d;
   display: inline-block;
   width: 1300px;
   height: 60px;
   margin-top: 10px;
 }
 .genre {
-  background-color: rgb(248, 76, 76);
+  background-color:#ef314c;
   height: 49px;
   color: white;
 }
@@ -103,13 +132,12 @@ h1 {
 }
 h2 {
   display: block;
-  margin: 10px 0px 0px 435px;
-  padding: 18px 12px;
+  margin: 12px 0px 0px 435px;
+  padding: 12px 0px;
   width: 400px;
   position: relative;
   font-family: "Verdana", sans-serif;
   font-size: 20px;
-  padding: 10px 0px;
   text-align: center;
 }
 body {
@@ -120,12 +148,11 @@ body {
 section a{
   display: inline-block;
   margin: 56px 0px 0px 180px;
-  padding: 18px 12px;
   width: 150px;
   position: relative;
   font-family: "Verdana", sans-serif;
-  font-size: 20px;
-  padding: 10px 0px;
+  font-size: 15px;
+  padding: 11px 0px;
   text-align: center;
   text-decoration: none;
 }
@@ -142,15 +169,19 @@ section div{
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin: 7px 125px;
+  margin: 10px 125px 0px 125px;
   font-size: 14px;
 }
 .Livraison p {
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin: 7px 158px 10px 125px;
+  margin: 0px 158px 1px 125px;
   font-size: 10px;
+}
+.Réseaux{
+  background-color: #ffffff;
+  height: 59px;
 }
 footer{
   display:flex;
