@@ -10,6 +10,12 @@ nav{
   align-content: flex-start;
   margin-left: 25px;
 }
+.menu2{
+  display:flex;
+  align-content: flex-start;
+  margin-left: 1065px;
+  margin-top: -85px;
+}
 .logoAsos{
   background-image: url("images/logo_asos.png");
   background-repeat: no-repeat;
@@ -17,11 +23,21 @@ nav{
   width: 100px;
   height: 40px;
 }
-.barreRecherche{
-  height: 50px;
-  background-image: url("images/barre_recherche.png");
-  background-repeat: no-repeat;
-  width: 700px;
+.barre{
+  font-size: 12px;
+  font-family: futura-pt,sans-serif;
+  letter-spacing: .4px;
+  top: 0;
+  left: 0;
+  width: 680px;
+  border: 0;
+  height: 38px;
+  border-radius: 19px/50%;
+  padding-left: 16px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  color: #2d2d2d;
+  margin-left: 102px;
 }
 ul {
   display: table;
@@ -135,4 +151,17 @@ section div{
   text-decoration: none;
   margin: 7px 158px 10px 125px;
   font-size: 10px;
+}
+footer{
+  display:flex;
+  justify-content: space-around;
+}
+.Aide{
+  flex-direction: column;
+  display: flex;
+  justify-content:space-between;
+  color:gray;
+  text-decoration: none;
+  font-size: 13px;
+  width: 339px;
 }
