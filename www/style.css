@@ -1,6 +1,17 @@
 body{
   background-color:rgb(243, 243, 243);
 }
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  }
+  
+.container-column {
+display: flex;
+flex-direction: column;
+}
+
 nav{
   text-align: center;
   margin-bottom: -4px;
@@ -62,7 +73,7 @@ nav{
   margin-left: 27px;
   margin-top: 1px;
 }
-ul {
+nav ul {
   display: table;
   margin: 10px;
   padding: 0;
@@ -72,7 +83,7 @@ ul {
 ul li{
   display: table-cell;
 }
-ul li a {
+.menu ul li a{
   display: inline-block;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -81,6 +92,11 @@ ul li a {
   margin: 4px 25px 0px 5px;
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu2{
+  justify-content: flex-end;
+  margin: -80px 50px 100px 0px;
 }
 .genre a{
   display: inline-block;
@@ -180,19 +196,48 @@ section div{
   font-size: 10px;
 }
 .Réseaux{
-  background-color: #ffffff;
   height: 59px;
+  background-image:url("images/CB.png");
+  background-repeat: no-repeat; 
 }
-footer{
-  display:flex;
+.footer-menu{
   justify-content: space-around;
+  flex-basis: 100%;
+  color:#666666;
+  font-size: 12px;
+  font-family: "Verdana",sans-serif;
+  text-decoration:none;
 }
 .Aide{
-  flex-direction: column;
-  display: flex;
-  justify-content:space-between;
-  color:gray;
+  justify-content: center;
+  color:red;
   text-decoration: none;
-  font-size: 13px;
-  width: 339px;
+  
+}
+.footer2{
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+h3{
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color:#666666; 
+}
+.logo2{
+  justify-content: space-around;
+}
+.facebook{
+  background-image: url("images/facebook.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+}
+.insta{
+  background-image: url("images/insta.png");
+  background-repeat: no-repeat;
+}
+.snapchat{
+  background-image: url("images/snap.png");
+  background-repeat: no-repeat;
 }
