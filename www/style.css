@@ -1,5 +1,5 @@
 body{
-  background-color:rgb(243, 243, 243);
+  background-color:#eeeeee;
 }
 
 .container-row {
@@ -134,7 +134,7 @@ h1, h2, section a{
 }
 body {
   display:inline-block;
-  margin: 20px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
   }
 h1 {
   display: block;
@@ -196,10 +196,10 @@ section div{
   font-size: 10px;
 }
 .Réseaux{
+  background-position: center;
   height: 59px;
   background-image:url("images/CB.png");
   background-repeat: no-repeat; 
-  margin-top:-16px;
   background-color: white;
 }
 a{
@@ -208,18 +208,14 @@ a{
   margin-top: 10px;
 }
 .footer-menu{
-  justify-content: space-around;
+  justify-content: space-between;
   flex-basis: 90%;
-  color:#666666;
+  color: #666666;
   font-size: 12px;
   font-family: "Verdana",sans-serif;
-  text-decoration:none;
 }
-.Aide{
-  justify-content: center;
-  color:red;
-  text-decoration: none;
-  
+.footer-menu li{
+  margin-bottom: 18px;
 }
 .footer2{
   justify-content: flex-end;
@@ -229,6 +225,8 @@ a{
   font-family: "Verdana",sans-serif;
   background-color:#dddddd;
   height: 55px;
+  margin-bottom: 0px;
+  padding: 0px 85px 10px 10px;
 }
 
 h3{
@@ -236,23 +234,39 @@ h3{
   font-size: 12px;
   text-align: left;
   color:#666666; 
-  margin: 40px 0px 0px 40px;git add
+  margin: 40px 0px 0px 40px;
 }
 .logo2{
-  justify-content: space-around;
-  flex-basis: 100%;
+  justify-content: space-between;
+  flex-basis: 15%;
+  margin: 16px 0px 0px 270px;
+  width: 195px;
 }
-.facebook{
-  background-image: url("images/facebook.png");
-  background-repeat: no-repeat;
-  width: 11px;
-  height: 11px;
+.copyright{
+  margin-right: 820px;
 }
-.insta{
-  background-image: url("images/insta.png");
-  background-repeat: no-repeat;
+.bouton-pays{
+  margin: 0px 0px 0px 38px;
 }
-.snapchat{
-  background-image: url("images/snap.png");
-  background-repeat: no-repeat;
+.button-flex{
+  justify-content: flex-end;
+  display: flex;
+  margin: 0px 100px 0px 0px;
+}
+.button{
+  padding: 8px 20px;
+  margin: 0px;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: 13px Verdana, arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #666666;
+}
+.hovergenre{
+
+}
+.hovergenre :hover{
+  background-color: #474747;
 }
